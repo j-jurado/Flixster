@@ -38,7 +38,7 @@ Used the same view controller for accessing movie details from either table or c
 
 ### App Walkthrough GIF
 
-
+![Alt Text](https://media.giphy.com/media/oxvP1p51wWPa0DCJH7/giphy.gif?cid=790b7611543887b1985ebb18e03c4612e72bb66f7d74ffe3&rid=giphy.gif&ct=g)
 
 Link if GIF not working: [GIF Link](https://i.imgur.com/QWLLUpD.gifv)
 
