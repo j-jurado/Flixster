@@ -16,9 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-
-![Part2](https://media.giphy.com/media/0WhwqQI1nvM74Hal6O/giphy.gif&ct=g)
-<img src="https://media.giphy.com/media/0WhwqQI1nvM74Hal6O/giphy.gif?raw=true" width="200px">
+![Alt Text](https://media.giphy.com/media/ZHGtVS4NuBjMEsivK9/giphy.gif?cid=790b76114c599763043ce5646234d90afa7989b3bc3e4ec0&rid=giphy.gif&ct=g)
 
 ### Notes
 Used the same view controller for accessing movie details from either table or collection views. Currently working on adding movie trailer view. 
@@ -39,7 +37,8 @@ Used the same view controller for accessing movie details from either table or c
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-![Part1](https://media.giphy.com/media/oxvP1p51wWPa0DCJH7/giphy.gif?cid=790b7611543887b1985ebb18e03c4612e72bb66f7d74ffe3&rid=giphy.gif&ct=g)
+
+![Alt Text](https://media.giphy.com/media/oxvP1p51wWPa0DCJH7/giphy.gif?cid=790b7611543887b1985ebb18e03c4612e72bb66f7d74ffe3&rid=giphy.gif&ct=g)
 
 Link if GIF not working: [GIF Link](https://i.imgur.com/QWLLUpD.gifv)
 
