@@ -90,6 +90,22 @@
             </objects>
             <point key="canvasLocation" x="-39" y="602"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="B8m-ip-F6J">
+            <objects>
+                <viewController id="TwK-ED-Koa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZXJ-JY-jkm" customClass="TrailerViewController" customModule="Flixster" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="l0N-nQ-Qxg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YkZ-lP-ADC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dKD-uY-KYZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="780" y="2031"/>
+        </scene>
         <!--Movie Details View Controller-->
         <scene sceneID="k2c-9R-eEp">
             <objects>
@@ -105,6 +121,10 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1YL-Hq-2zI">
                                 <rect key="frame" x="10" y="213" width="104" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="XB1-cA-ROr" appends="YES" id="ymv-VG-5wO"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eba-aN-TAN">
                                 <rect key="frame" x="122" y="301" width="292" height="38"/>
@@ -133,8 +153,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Uj-xk-ZlG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="XB1-cA-ROr"/>
             </objects>
-            <point key="canvasLocation" x="-39" y="1308"/>
+            <point key="canvasLocation" x="779.71014492753625" y="1329.9107142857142"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="WpP-Cw-zrd">
@@ -152,7 +173,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Pg-gq-dBD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781" y="-822"/>
+            <point key="canvasLocation" x="780" y="-822"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="IiV-FY-mGq">
@@ -208,6 +229,7 @@
                                         <size key="customSize" width="197" height="271"/>
                                         <connections>
                                             <outlet property="posterView" destination="QDS-jg-2PP" id="AQh-t4-JV4"/>
+                                            <segue destination="VwI-RE-4Lf" kind="show" id="l6g-Gm-0gS"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -245,6 +267,9 @@
             <point key="canvasLocation" x="1495.6521739130435" y="-92.410714285714278"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="r3x-fJ-Ar5"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>

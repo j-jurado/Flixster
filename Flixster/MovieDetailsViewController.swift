@@ -40,6 +40,11 @@ class MovieDetailsViewController: UIViewController {
         
     }
     
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        var movieID = segue.destination as! TrailerViewController
+//        movieID = movie["id"] as!
+//    }
+    
 
     /*
     // MARK: - Navigation

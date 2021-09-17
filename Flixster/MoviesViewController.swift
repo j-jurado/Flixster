@@ -20,9 +20,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.dataSource = self
         tableView.delegate = self
-
-        // Do any additional setup after loading the view.
-        print("Hello")
         
         //Network Request Snippet
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
@@ -67,16 +64,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
-
-    /*
-     MARK: - Navigation
-
-     In a storyboard-based application, you will often want to do a little preparation before navigation
-    
-    */
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         
-        print("Loading up the details screen")
+        print("Loading details from table view")
         
         // Find the selected movie
         let cell = sender as! UITableViewCell
